@@ -1089,7 +1089,7 @@ func (h *Handler) getTemplate(name string) (string, error) {
 		return nil
 	}
 
-	err := appendf("_base.html")
+	err := appendf("base.html")
 	if err != nil {
 		return "", errors.Wrap(err, "error reading base template")
 	}
