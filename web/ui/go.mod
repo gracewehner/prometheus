@@ -1,4 +1,4 @@
-module prometheus/web/ui
+module github.com/gracewehner/prometheus/web/ui
 
 go 1.16
 
